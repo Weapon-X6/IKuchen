@@ -1,4 +1,3 @@
-# 29.01.2023
 import unittest
 
 def meinesplit(strng):
@@ -13,7 +12,7 @@ def meinesplit(strng):
 
     # handle cases where there is other than spaces or empty strings
     temp = ""
-    for s in strng: 
+    for s in strng:
         if s.isspace():
             l.append(temp)
             temp = ""
@@ -52,9 +51,3 @@ class SplitTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-# print(mysplit("To be or not to be, that is the question"))
-# print(mysplit("To be or not to be,that is the question"))
-# print(mysplit("   "))
-# print(mysplit(" abc "))
-# print(mysplit(""))
